@@ -17,6 +17,6 @@ public class SimpleTest {
 
         System.out.println("never failure test");
 
-        // Assert.fail("failing test");
+         Assert.fail("failing test");
     }
 }
