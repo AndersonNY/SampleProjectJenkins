@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SimpleTest {
@@ -12,8 +13,10 @@ public class SimpleTest {
 
     @Test
 
-    public void secondTest () {
+    public void failingTest () {
 
         System.out.println("never failure test");
+
+        Assert.fail("failing test");
     }
 }
