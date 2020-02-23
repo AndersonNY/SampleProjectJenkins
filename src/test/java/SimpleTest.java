@@ -10,4 +10,10 @@ public class SimpleTest {
 
     }
 
+    @Test
+
+    public void secondTest () {
+
+        System.out.println("never failure test");
+    }
 }
